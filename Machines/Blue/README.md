@@ -9,6 +9,7 @@ Blue is an easy [HackTheBox machine](https://app.hackthebox.com/machines/Blue) t
 First, we need to get what services that were running in the Blue machine. To scan the services, we can use [Nmap](https://nmap.org/) or [Threader3000](https://github.com/dievus/threader3000).
 
 To get the first initial port scan, I will be using nmap.
+
 ![](InitialScan.png)
 
 After getting the opened ports, we can now try to scan their vulnerabilities using Nmap.
@@ -35,9 +36,11 @@ All set! All that we need to do is to run the module by typing `exploit` or `run
 > As we can see, there is a banner on the bottom that said **WIN**. That means, we are able to exploit, gain access to the machine, and getting a meterpreter session.
 
 Lastly, we need to find the flag. We know that the format of the flags are `user.txt` and `root.txt`. So we can utilize meterpreter's search command.
+
 ![](UserFlag.png)
 
 > Note: the `-f` in search command is to specify that we were looking for a file.
 
 Andddd we were able to read the root flag.
+
 ![](RootFlag.png)
