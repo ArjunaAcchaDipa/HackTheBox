@@ -1,6 +1,6 @@
 ## Overview
 
-This is a Walkthrough for Getting Started challenge on HackTheBox. Getting Started is a very easy [HackTheBox challenge](https://app.hackthebox.com/challenges/getting-started) that is created by [w3th4nds](https://app.hackthebox.com/users/70668) . It is also a retired challenge, so we will need to use the HackTheBox Subscription to use the challenge.
+This is a Walkthrough for Getting Started challenge on HackTheBox. Getting Started is a very easy [HackTheBox challenge](https://app.hackthebox.com/challenges/getting-started) in pwn categor that is created by [w3th4nds](https://app.hackthebox.com/users/70668). It is also a retired challenge, so we will need to use the HackTheBox Subscription to use the challenge.
 
 ## Enumeration
 
